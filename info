@@ -1,0 +1,31 @@
+Mavzu:
+
+alembic
+postgresql
+permissions
+
+1. change url for postgresql
+2. alembic
+    1. alembic.ini url changed
+    2. script.py,mako import sqlmodel
+    3. import sqlmodel from sqlmodel and metadata
+3. create dependencies for endpoints
+
+----------------------------------------------------------------------------
+
+Uyga vazifa.
+
+Ushbu apilarni yaratish kerak.
+
+ADMIN
+
+/users -> hamma userlarni ko'rish, paginatsiya imkoniyati bo'lishi kerak
+/users/user_id/ -> crud imkoniyati bo'lishi kerak
+/news/ -> crud
+
+Users
+/users/me -> crud imkoniyati bo'lishi kerak
+/users/change/password/ -> parolni o'zgartirish
+
+/news/list/ -> paginansiya orqali ko'ra oladi
+
